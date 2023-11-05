@@ -1,0 +1,8 @@
+let a = 0;
+let temp;
+
+for (let i = 1; a < 100000; i = temp + i) {
+    print a;
+    temp = a;
+    a = i;
+}

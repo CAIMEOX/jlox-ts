@@ -1,0 +1,21 @@
+let x = 1;
+x = 514;
+print x;
+{
+    let x = 100;
+    {
+        x;
+    }
+    print nil or "oh my";
+    if (nil) print x; else print "yeah";
+    print "value of x:";
+    print x;
+
+    while (x > 0) {
+        x = x - 1;
+        print x;
+    }
+}
+// Drop inner x
+print x;
+print (x>0);
